@@ -39,5 +39,6 @@ https://blog.csdn.net/aichipmunk/article/details/48132109
 8. A new image is taken into consideration, which shall be registered using Perspective - n - Point (PnP). For this, we need the 3D - 2D correspondence for the new image. So, the features common for image 2 and 3 are taken into consideration and only those points are taken for PnP which are visible in the newly added image (data association). After PnP, we get the world pose estimate of the image.
 9. This image can now see new points, which were not there in original point cloud. So, triangulation is done for the same. Again the reprojection error is calculated.
 10. Now, for each newly added image, the pipeline will repeat from step 8.
-
+# original site:
+https://github.com/FlagArihant2000/sfm-mvs
 
